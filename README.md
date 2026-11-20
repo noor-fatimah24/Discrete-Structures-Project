@@ -3,7 +3,7 @@
 
 ### Group Members
 * **Muhammad Abuzar** — `25i-0654` (Group Leader)
-* **Ahmad Basit** — `25i-1047`
+* **Ahmed Basit** — `25i-1047`
 * **Noor Fatima** — `24i-0898`
 * **Section:** B
 
@@ -69,7 +69,7 @@ The minimum over all 6 permutations is **11**, which maps to **Class 5** in the 
 
 ### Contributions
 * **Muhammad Abuzar (`25i-0654`):** Implemented T1 & T2 (`src/data_loader.py`), data cleaning, top-20 ranking, parameter derivation, induced subgraphs, and T6 Z-score pipeline (`main.py`).
-* **Ahmad Basit (`25i-1047`):** Implemented T3 & T4 (`src/motifs.py`), 6-bit canonical triad classification, hand-worked example, and neighbor-pair triad census.
+* **Ahmed Basit (`25i-1047`):** Implemented T3 & T4 (`src/motifs.py`), 6-bit canonical triad classification, hand-worked example, and neighbor-pair triad census.
 * **Noor Fatima (`24i-0898`):** Implemented T5 (`src/randomizer.py`) double-edge swap randomization with degree-preservation assertions, T7 (`src/plotting.py`) grouped bar chart, and T8 department comparison.
 
 Department 15 (55 nodes, 357 edges) and Department 5 (18 nodes, 147 edges) exhibit distinctly different communication structures relative to their degree-preserving null models. Department 15 shows strong, structured reciprocity: Class 8 ($Z = 9.39$, two mutual/two-way relationships connected through a shared hub) and Class 13 ($Z = 4.66$, fully reciprocal 3-person cliques where everyone emails everyone) appear as strong motifs, while purely one-way or unreciprocated structures—such as Class 1 (one-way broadcast, $Z = -5.41$), Class 2 (one-way chain, $Z = -6.19$), and Classes 4, 5, 6, 9, 10, and 11—are significantly underrepresented as anti-motifs. This indicates that communication in Department 15 relies heavily on two-way dialogue, collaborative sub-teams, and central coordinators rather than one-way announcements. In contrast, Department 5 is much smaller and denser, with no statistically significant motifs ($Z > 2$) and only one anti-motif (Class 1, $Z = -2.55$). While Department 5 also avoids purely one-way broadcasts, its high edge density means its overall triad distribution is largely explained by its degree sequence alone, resulting in a flatter, more uniformly interconnected communication pattern without the pronounced hub-and-clique clustering seen in Department 15.
